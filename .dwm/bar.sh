@@ -9,10 +9,10 @@ memory() {
 	printf " $(free -h | awk '/^Mem/ { print $3 }' | sed s/i//g)"
 }
 
-date() {
+clock() {
 	printf " $(date '+%a %d %b, %H:%M')"
 }
 
 while true; do
-	sleep 1 && xsetroot -name "$(memory) $(cpu) $(date)"
+	sleep 1 && xsetroot -name "$(memory) $(cpu) $(clock)"
 done
