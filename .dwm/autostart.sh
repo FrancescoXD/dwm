@@ -4,7 +4,7 @@
 setxkbmap it
 
 # Set random wallpaper
-feh --bg-fill --randomize $HOME/Wallpaper/*
+feh --bg-fill --randomize $HOME/Wallpapers/*
 
 # Start picom (transparency)
 #picom &
