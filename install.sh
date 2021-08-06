@@ -9,6 +9,7 @@ cp -r wallpapers/* $HOME/Wallpapers
 # Copy scripts
 cp -r .dwm $HOME/
 chmod +x $HOME/.dwm/autostart.sh
+chmod +x $HOME/.dwm/bar.sh
 
 # Compile dwm
 cd dwm

@@ -10,4 +10,5 @@ feh --bg-fill --randomize $HOME/Wallpapers/*
 #picom &
 
 # Start dwm
+$HOME/.dwm/bar.sh &
 dwm
