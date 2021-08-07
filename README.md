@@ -8,6 +8,7 @@ My personal dwm config
 - feh
 - dmenu (I'm going to replace it with rofi)
 - st (siduck76's build)
+- picom (optional, transparency)
 
 ## Installation
 Just use the installation script.
