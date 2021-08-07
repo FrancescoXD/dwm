@@ -1,7 +1,7 @@
 # dwm
 My personal dwm config
 
-![screen1](/screenshots/screen1.png)
+![screen1](/screenshots/screen2.png)
 
 ## Requirements
 - xorg
