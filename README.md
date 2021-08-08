@@ -3,6 +3,8 @@ My personal dwm config
 
 ![screen1](/screenshots/screen2.png)
 
+![screen2](/screenshots/screen3.png)
+
 ## Requirements
 - xorg
 - feh
