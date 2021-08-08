@@ -19,7 +19,7 @@ make clean
 cd ..
 
 # Install dmenu
-git clone https://git.suckless.org/dmenu
+git clone https://github.com/FrancescoXD/dmenu
 cd dmenu
 make
 sudo make install
