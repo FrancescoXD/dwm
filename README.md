@@ -7,6 +7,7 @@ My personal dwm config
 - xorg
 - feh
 - [dmenu](https://github.com/FrancescoXD/dmenu)
+- pywal
 - st (siduck76's build)
 - picom (optional, transparency)
 
