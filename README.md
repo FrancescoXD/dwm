@@ -6,7 +6,7 @@ My personal dwm config
 ## Requirements
 - xorg
 - feh
-- dmenu (I'm going to replace it with rofi)
+- [dmenu](https://github.com/FrancescoXD/dmenu)
 - st (siduck76's build)
 - picom (optional, transparency)
 
