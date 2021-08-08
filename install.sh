@@ -21,6 +21,8 @@ cd ..
 # Install dmenu
 git clone https://github.com/FrancescoXD/dmenu
 cd dmenu
+username=$(whoami)
+sed -i "s/wm/$username/g" config.def.h
 make
 sudo make install
 make clean
