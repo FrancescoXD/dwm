@@ -1,6 +1,6 @@
 # Copy fonts
 mkdir $HOME/.local/share/fonts
-cp -r fonts* $HOME/.local/share/fonts
+cp -r fonts/ $HOME/.local/share/fonts
 
 # Copy wallpapers
 mkdir $HOME/Wallpapers
@@ -21,6 +21,7 @@ cd ..
 # Install dmenu
 git clone https://github.com/FrancescoXD/dmenu
 cd dmenu
+wal -i $HOME/Wallpapers/wall.png
 sed -i "s/wm/$(whoami)/g" config.def.h
 make
 sudo make install
