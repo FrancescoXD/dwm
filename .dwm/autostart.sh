@@ -10,7 +10,7 @@ feh --bg-fill $HOME/Wallpapers/wall.png
 wal -i $HOME/Wallpapers/wall.png
 
 # Start picom (transparency)
-#picom &
+picom &
 
 # Start dwm
 $HOME/.dwm/bar.sh &
