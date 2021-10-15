@@ -1,6 +1,6 @@
 # Copy fonts
 mkdir $HOME/.local/share/fonts
-cp -r fonts/ $HOME/.local/share/fonts
+cp -r fonts/* $HOME/.local/share/fonts
 
 # Copy wallpapers
 mkdir $HOME/Wallpapers
@@ -31,6 +31,7 @@ cd ..
 # Install st (siduck76's build)
 git clone https://github.com/siduck76/st
 cd st
+sed -i 's/float alpha = 1.0;/float alpha = 0.8;/g' config.def.h
 make
 sudo make install
 make clean
