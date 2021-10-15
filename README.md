@@ -8,6 +8,7 @@ My personal dwm config
 ## Requirements
 - xorg
 - feh
+- zsh
 - [dmenu](https://github.com/FrancescoXD/dmenu)
 - pywal
 - st (siduck76's build)
