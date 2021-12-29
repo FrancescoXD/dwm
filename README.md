@@ -15,11 +15,14 @@ My personal dwm config
 - picom (optional, transparency)
 
 ## Installation
-Just use the installation script.
+To install `dwm` do:
+
 ```
 $ chmod +x install.sh
-$ ./install.sh
+$ ./install_dwm.sh
 ```
+
+If you want also to install `dmenu` and `st` start `install_packages.sh`.
 
 ## Starting
 If you are using ```xinit```, start dwm with ```exec ~/.dwm/autostart```, or if you are using a display manager just change ```username``` in ```dwm.desktop``` with your username and copy it to ```/usr/share/xsessions```.
