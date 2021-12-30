@@ -19,5 +19,5 @@ clock() {
 }
 
 while true; do
-	sleep 1 && xsetroot -name "$(memory) $(battery) $(cpu) $(clock)"
+	sleep 1 && xsetroot -name "$(memory) $(cpu) $(clock)"
 done
