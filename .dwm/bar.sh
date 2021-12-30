@@ -1,13 +1,8 @@
-#!/bin/bash
+#!/bin/sh
 
 cpu() {
 	cpu_value=$(grep -o "^[^ ]*" /proc/loadavg)
 	printf " $cpu_value"
-}
-
-battery() {
-	bat_capacity=$(cat /sys/class/power_supply/BAT*/capacity)
-	printf " $bat_capacity"
 }
 
 memory() {

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Set keyboard layout
 setxkbmap it
@@ -6,8 +6,9 @@ setxkbmap it
 # Set random wallpaper
 #wall=$(find ~/Wallpapers -type f | shuf -n 1) # return a random file
 #feh --bg-fill --randomize $HOME/Wallpapers/*
-feh --bg-fill $HOME/Wallpapers/wall.png
-wal -i $HOME/Wallpapers/wall.png
+WALL=$HOME/Wallpapers/wall.png
+feh --bg-fill $WALL
+wal -i $WALL
 
 # Start picom (transparency)
 picom &
