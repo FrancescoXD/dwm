@@ -18,7 +18,7 @@ My personal dwm config
 To install `dwm` do:
 
 ```
-$ chmod +x install.sh
+$ chmod +x install_dwm.sh
 $ ./install_dwm.sh
 ```
 
