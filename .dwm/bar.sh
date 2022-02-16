@@ -1,5 +1,10 @@
 #!/bin/sh
 
+battery_status() {
+	percentage=$(acpi -V | grep "arging" | cut -d "," -f 1,2)
+	printf " $percentage%"
+}
+
 cpu() {
 	cpu_value=$(grep -o "^[^ ]*" /proc/loadavg)
 	printf " $cpu_value"
@@ -14,5 +19,5 @@ clock() {
 }
 
 while true; do
-	sleep 1 && xsetroot -name "$(memory) $(cpu) $(clock)"
+	sleep 1 && xsetroot -name "$(battery_status) $(memory) $(cpu) $(clock)"
 done
