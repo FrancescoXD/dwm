@@ -13,6 +13,7 @@ My personal dwm config
 - pywal
 - st (siduck76's build)
 - picom (optional, transparency)
+- acpi (laptop battery status)
 
 ## Installation
 To install `dwm` do:
