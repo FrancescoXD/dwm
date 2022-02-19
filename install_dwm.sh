@@ -1,5 +1,5 @@
 # Copy fonts
-mkdir $HOME/.local/share/fonts
+mkdir -p $HOME/.local/share/fonts
 cp -r fonts/* $HOME/.local/share/fonts
 
 # Copy wallpapers
